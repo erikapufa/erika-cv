@@ -1,0 +1,42 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+body {
+  min-height: 3000px;
+}
+#projects {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+
+/* project */
+
+.card {
+  color: white;
+  background-color: #051f20;
+  border: none;
+  box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+}
+
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  color: #051f20;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.card:hover .circle {
+  background-color: #051f20;
+  color: white;
+  transition: 0.5;
+}
+
+/* end */
